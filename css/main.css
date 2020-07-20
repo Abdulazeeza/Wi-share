@@ -25,7 +25,7 @@ body{
 }
 .page_conatiner{
 	position: relative;
-	margin: 30px 50px;
+	padding: 30px 50px;
 	display: inline-block;
 }
 .main_section{
@@ -354,7 +354,7 @@ footer{
 }
 @media(max-width: 450px){
 	.page_conatiner{
-		padding:30px 20px;
+		padding:30px 10px;
 	}
 	.subcribe_body div input, .subcribe_body div button{
 		height: 50px;
