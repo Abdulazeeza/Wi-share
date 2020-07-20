@@ -1,0 +1,377 @@
+*{
+	font-family: Poppins;
+	color: #ffffff;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #102B4A;
+	display: grid;
+
+}
+::-webkit-scrollbar {
+    width: 8px !important;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+	border-radius: 8px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #EE5D80;
+	border-radius: 8px;
+}
+.page_conatiner{
+	position: relative;
+	margin: 30px 50px;
+	display: inline-block;
+}
+.main_section{
+	display: grid;
+}
+.page_header{
+	width: 100%;
+	margin-bottom: 100px;
+}
+.section1 .sub_section1,.section1 .sub_section2{
+	width: 50%;
+	float: left;
+}
+.section1 .sub_section2 img{
+	width: 100%;
+	height: auto;
+}
+.section1 .sub_section1 h1 span{
+	color:  #FFF858;
+}
+.section1 .sub_section1 h2{
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+	color: #E9EBEB;
+}
+.subcribe_body{
+	margin-top: 50px;
+}
+.subcribe_body_sm{
+	display: none;
+}
+.subcribe_body h2{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #E9EBEB;
+}
+.subcribe_body div input{
+	outline: none;
+	border-radius: 10px;
+	height: 70px;
+	width: 300px;
+	border:none;
+	padding-left: 20px;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	color: #000000;
+}
+.subcribe_body div button{
+	background: #EE5D80;
+	border-radius: 10px;
+	width: 150px;
+	height: 70px;
+	border:none;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
+.subcribe_body div button:hover{
+	background: #FFB6C1;
+}
+.section2{
+	width: 100%;
+	text-align: center;
+	display: grid;
+}
+.section2 .take_tour{
+	margin: auto;
+}
+.section2 .take_tour h1{
+	font-style: normal;
+	font-weight: bold;
+	float: left;
+}
+.section2 .take_tour img{
+	float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.aplication_screens{
+	display: grid;
+}
+.aplication_screens .screen_body{
+	width: 100%;
+}
+.screen_body .screen_description{
+	float: left;
+	width: 40%;
+}
+.screen_body .left_side{
+	padding: 100px 0px 0px 100px;
+}
+.screen_body .right_side{
+	padding: 100px 0px 0px 0px;
+}
+.screen_body .screen_description1 h1{
+	 color: #6FE7DF;
+}
+.screen_body .screen_description2 h1{
+	color: #58FF69;
+}
+.screen_body .screen_description3 h1{
+	color: #FFF858;
+}
+.screen_body .screen_description4 h1{
+	color: #816CD8;
+}
+.screen_body .screen_description5 h1{
+	color: #CDF3F1;
+}
+.screen_body .screen_description h4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+.screen_body .app_screen{
+	float: left;
+	width: 50%;
+	position: relative;
+}
+.screen_body .app_screen img{
+	width: 70%;
+	animation: bounce 4s infinite; 
+	cursor: zoom-in;
+}
+.screen_body .app_screen img:hover{
+	animation: stopbounce 4s infinite;
+}
+@keyframes bounce {
+    50%   { transform: translateY(10px); }
+}
+@keyframes stopbounce {
+    0%   { transform: translateY(0px); }
+}
+footer{
+	background: #031830;
+	width: 100%;
+	height: 80px;
+}
+.footer_body{
+	margin: 20px 50px 0px 50px;
+}
+.social_links{
+	text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.social_links img{
+	margin-top: 10px;
+}
+.instagram:hover{
+	border: 2px solid #EE5D80;
+}
+.facebook:hover{
+	border: 2px solid #3B5998;
+}
+.twitter:hover{
+	border: 2px solid #1DA1F2;
+}
+.social_links_body .social_links{
+	float: left;
+}
+.coppyright_body{
+	float: right;
+	text-align: right;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.coppyright_body span{
+	margin-left: 10px;
+}
+.modal_img_body{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+  	background-color: rgba(0,0,0,0.9);
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    cursor: zoom-out;
+    text-align: center;
+    display: none;
+    overflow: auto;
+}
+.img_cancel_btn{
+	float: right;
+}
+.img_cancel_btn i{
+	font-size: 40px;
+	cursor: context-menu;
+}
+.modal_img_body img{
+	margin: auto;
+	width: 350px;
+	background: transparent;
+	cursor: context-menu;
+}
+.email_modal_body{
+	position: fixed;
+	width: 300px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	background: #ffffff;
+	vertical-align: center;
+	transition: 1s ease;
+	color: black;
+	text-align: center;
+	padding: 10px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px 0px;
+	top: 35%;
+	display: none;
+}
+.email_modal_body h3{
+	color: #102B4A;
+}
+.email_modal_body button{
+	color: white;
+	background: #EE5D80;
+	outline: none;
+	border:none;
+	width: 80px;
+	height: 30px;
+	float: right;
+}
+.email_modal_body button:hover{
+	background: #FFB6C1;
+}
+@media (max-width: 1200px){
+	.section1 .sub_section1{
+		width: 45%;
+	}
+	.section1 .sub_section2{
+		width: 55%;
+	}
+	.page_header{
+		margin-bottom: 50px;
+	}
+	.screen_body .left_side{
+    	padding: 70px 0px 0px 80px;
+	}
+}
+@media (max-width: 1000px){
+	.section1 .sub_section1,.section1 .sub_section2{
+		width: 100%;
+	}
+	.subcribe_body_sm{
+		display: block;
+	}
+	.subcribe_body_lg{
+		display: none;
+	}
+	.subcribe_body{
+		margin-top: 0px;
+	}
+	.section1 .sub_section2 img{
+		width: 80%;
+		margin: auto;
+	}
+	.screen_body .app_screen img{
+		width: 100%;
+		margin-left: 5%;
+	}
+	.screen_body .left_side {
+    	padding: 70px 0px 0px 50px;
+	}
+}
+@media (max-width: 750px){
+	.section1 .sub_section2 img{
+		width: 100%;
+		margin-left: auto;
+	}
+	.section2 .take_tour {
+    	margin: auto;
+    	text-align: center;
+    	display: grid;
+	}
+	.section2 .take_tour img {
+    	margin: auto;
+    	float: none;
+	}
+	.aplication_screens .screen_body {
+    	display: grid;
+	}
+	.screen_body .screen_description {
+	    width: 100%;
+    	order: 2;
+    	padding: 0px;
+	}
+	.screen_body .app_screen {
+    	width: 100%;
+    	order: 1;
+	}
+	.screen_body .app_screen img{
+		margin-left: auto;
+	}
+	footer{
+		padding-bottom: 20px;
+		height: auto;
+	}
+	.social_links_body{
+		margin: auto;
+	    justify-content: space-around;
+	    display: flex;
+	    width: 300px;
+	}
+	.social_links_body .social_links {
+    	margin: auto;
+	}
+	.coppyright_body {
+    	width: 100%;
+    	text-align: center;
+    	margin-right: 0px;
+	}
+}
+@media(max-width: 450px){
+	.page_conatiner{
+		padding:30px 20px;
+	}
+	.subcribe_body div input, .subcribe_body div button{
+		height: 50px;
+	}
+	.section1 .sub_section1 h1,.section2 h1{
+		font-size: 25px;
+	}
+	.section2 .take_tour{
+		width: 300px;
+		text-align: center;
+	}
+	.section2 .take_tour h1{
+		float: none;
+	}
+	.section2 .take_tour img{
+		float: none;
+		margin: auto;
+	}
+	.modal_img_body img{
+		width: 90%;
+	}
+}
