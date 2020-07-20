@@ -9,6 +9,7 @@ body{
 	display: grid;
 	width: 100%;
 	background: #102B4A;
+	overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -372,6 +373,6 @@ footer{
 		width: 90%;
 	}
 	.section1, .section2{
-		margin: 0px 10px;
+		margin: 0px 7px;
 	}
 }
