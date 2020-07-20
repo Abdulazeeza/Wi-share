@@ -349,7 +349,7 @@ footer{
 }
 @media(max-width: 450px){
 	.page_conatiner{
-		padding:30px 10px;
+		margin:30px 10px;
 	}
 	.subcribe_body div input, .subcribe_body div button{
 		height: 50px;
