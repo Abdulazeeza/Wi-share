@@ -1,6 +1,7 @@
 *{
 	font-family: Poppins;
 	color: #ffffff;
+	box-sizing: border-box;
 }
 body{
 	margin: 0;
@@ -9,7 +10,6 @@ body{
 	display: grid;
 	overflow-x: hidden;
 	max-width: 100%;
-	box-sizing: border-box;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
