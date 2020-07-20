@@ -8,6 +8,7 @@ body{
 	padding: 0;
 	display: grid;
 	width: 100%;
+	background: #102B4A;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -23,8 +24,7 @@ body{
 }
 .page_conatiner{
 	position: relative;
-	padding: 30px 50px;
-	background: #102B4A;
+	margin: 30px 50px;
 }
 .page_header{
 	width: 100%;
