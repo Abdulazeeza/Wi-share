@@ -78,7 +78,7 @@ $(document).ready(function () {
 	$(document).on("click", ".subcribe_body_sm div button", check_email_sm);
 	$(document).on("click", ".img_cancel_btn i", remove_img_modal);
 	$(document).on("click", ".email_modal_body button", close_email_modal);
-	$(document).on("click", ".page_conatiner", close_email_modal);
+	//$(document).on("click", ".page_conatiner", close_email_modal);
 	$(document).on("click", ".screen_body .img1", function(){
 		create_img_modal("img/Group43.png")	
 	});
