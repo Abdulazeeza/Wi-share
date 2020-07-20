@@ -6,10 +6,8 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: #102B4A;
 	display: grid;
-	overflow-x: hidden;
-	max-width: 100%;
+	width: 100%;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -26,10 +24,7 @@ body{
 .page_conatiner{
 	position: relative;
 	padding: 30px 50px;
-	display: inline-block;
-}
-.main_section{
-	display: grid;
+	background: #102B4A;
 }
 .page_header{
 	width: 100%;
