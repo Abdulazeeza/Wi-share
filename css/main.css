@@ -1,14 +1,12 @@
-*{
-	font-family: Poppins;
-	color: #ffffff;
-	box-sizing: border-box;
-}
 body{
 	margin: 0;
 	padding: 0;
 	display: grid;
 	width: 100%;
 	position: relative;
+	font-family: Poppins;
+	color: #ffffff;
+	box-sizing: border-box;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -88,6 +86,7 @@ body{
 	font-size: 18px;
 	outline: none;
 	cursor: pointer;
+	color: #ffffff;
 }
 .subcribe_body div button:hover{
 	background: #FFB6C1;
@@ -355,8 +354,7 @@ footer{
 }
 @media(max-width: 450px){
 	.main_section{
-		margin:30px 7px;
-		max-width: 100%;
+		margin:30px 10px;
 	}
 	.subcribe_body div input, .subcribe_body div button{
 		height: 50px;
