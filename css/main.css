@@ -8,8 +8,7 @@ body{
 	padding: 0;
 	display: grid;
 	width: 100%;
-	background: #102B4A;
-	overflow-x: hidden;
+	position: relative;
 }
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -25,15 +24,20 @@ body{
 }
 .page_conatiner{
 	position: relative;
+	background: #102B4A;
+	width: 100%;
+}
+.main_section{
 	margin: 30px 50px;
+	position: relative;
 }
 .page_header{
-	width: 100%;
 	margin-bottom: 100px;
 }
 .section1 .sub_section1,.section1 .sub_section2{
 	width: 50%;
 	float: left;
+	position: relative;
 }
 .section1 .sub_section2 img{
 	width: 100%;
@@ -90,6 +94,7 @@ body{
 }
 .section2{
 	width: 100%;
+	position: relative;
 	text-align: center;
 	display: grid;
 }
@@ -349,7 +354,7 @@ footer{
 	}
 }
 @media(max-width: 450px){
-	.page_conatiner{
+	.main_section{
 		margin:30px 7px;
 		max-width: 100%;
 	}
