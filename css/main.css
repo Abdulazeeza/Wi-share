@@ -364,6 +364,9 @@ footer{
 	.section1 .sub_section1 h1,.section2 h1{
 		font-size: 25px;
 	}
+	.section1 .sub_section2{
+		width: 100%
+	}
 	.section2 .take_tour{
 		width: 300px;
 		text-align: center;
@@ -377,5 +380,8 @@ footer{
 	}
 	.modal_img_body img{
 		width: 90%;
+	}
+	.app_screen{
+		width: 100%;
 	}
 }
