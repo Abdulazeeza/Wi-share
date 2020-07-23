@@ -354,7 +354,8 @@ footer{
 }
 @media(max-width: 450px){
 	.main_section{
-		padding: 30px 10px;
+		padding: 30px 5%;
+		width: 90%;
 	}
 	.subcribe_body div input, .subcribe_body div button{
 		height: 50px;
